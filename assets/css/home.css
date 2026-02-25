@@ -3517,7 +3517,7 @@ footer:before{
         font-size: 12px;
     }
     .coach-count {
-        height: auto;
+        height: 100%;
         padding: 16px 16px;
     }
     .endless-club h4 {
