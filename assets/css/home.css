@@ -1386,7 +1386,7 @@ p{
     border-radius: 100px;
     padding: 10px 20px;
     color: rgba(255, 255, 255, 1);
-    font-weight: 300;
+    font-weight: 400;
     font-size: 16px;
     line-height: 110.00000000000001%;
 }
@@ -3848,10 +3848,10 @@ footer .container{
     .reasons-title {
         gap: 10px;
     }
-    .caught-cycle-text h3 br{
+    .perfect-moment-br h3 br{
       display: none;
     }
-    .caught-cycle-text h3 span{
+    .perfect-moment-br h3 span{
       display: none;
     }
 
