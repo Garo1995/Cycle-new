@@ -1390,7 +1390,9 @@ p{
     font-size: 16px;
     line-height: 110.00000000000001%;
 }
-
+.br-for-mob{
+    display: none;
+}
 
 
 
@@ -3564,7 +3566,9 @@ footer .container{
         max-width: 360px;
     }
 
-
+    .br-for-mob{
+        display: block;
+    }
 
 }
 
