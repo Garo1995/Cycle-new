@@ -183,21 +183,19 @@ document.addEventListener("DOMContentLoaded", function () {
     scrollContainer.addEventListener('scroll', function () {
         let scrollLeft = scrollContainer.scrollLeft;
 
-        // определяем индекс текущего блока
+        // текущий индекс блока
         let index = Math.round(scrollLeft / stepWidth);
 
-        // считаем поворот
-        let rotation = index * 25;
+        // поворот по 90° и зацикливание
+        let rotation = (index % 4) * 90;
 
         circle.style.transform = `rotate(${rotation}deg)`;
     });
 
-    // если экран ресайзится
     window.addEventListener('resize', () => {
         stepWidth = boxes[0].offsetWidth;
     });
 });
-
 
 
 
