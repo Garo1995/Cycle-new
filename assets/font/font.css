@@ -93,17 +93,9 @@
 
 
 
-@font-face {
-    font-family: 'Playfair Display';
-    src: url('PlayfairDisplay-Black.eot');
-    src: local('Playfair Display Black'), local('PlayfairDisplay-Black'),
-    url('PlayfairDisplay-Black.eot?#iefix') format('embedded-opentype'),
-    url('PlayfairDisplay-Black.woff2') format('woff2'),
-    url('PlayfairDisplay-Black.woff') format('woff'),
-    url('PlayfairDisplay-Black.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-}
+
+
+
 
 @font-face {
     font-family: 'Playfair Display';
@@ -141,27 +133,5 @@
     font-style: italic;
 }
 
-@font-face {
-    font-family: 'Playfair Display';
-    src: url('PlayfairDisplay-BlackItalic.eot');
-    src: local('Playfair Display Black Italic'), local('PlayfairDisplay-BlackItalic'),
-    url('PlayfairDisplay-BlackItalic.eot?#iefix') format('embedded-opentype'),
-    url('PlayfairDisplay-BlackItalic.woff2') format('woff2'),
-    url('PlayfairDisplay-BlackItalic.woff') format('woff'),
-    url('PlayfairDisplay-BlackItalic.ttf') format('truetype');
-    font-weight: 900;
-    font-style: italic;
-}
 
-@font-face {
-    font-family: 'Playfair Display';
-    src: url('PlayfairDisplay-BoldItalic.eot');
-    src: local('Playfair Display Bold Italic'), local('PlayfairDisplay-BoldItalic'),
-    url('PlayfairDisplay-BoldItalic.eot?#iefix') format('embedded-opentype'),
-    url('PlayfairDisplay-BoldItalic.woff2') format('woff2'),
-    url('PlayfairDisplay-BoldItalic.woff') format('woff'),
-    url('PlayfairDisplay-BoldItalic.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
-}
 

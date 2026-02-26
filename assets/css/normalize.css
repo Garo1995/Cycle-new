@@ -296,6 +296,9 @@ body {
 .icon-heart{
     content: url("../img/icons/heart.png");
 }
+.icon-heart-red{
+    content: url("../img/icons/red-heart.png");
+}
 .icon-lamp{
     content: url("../img/icons/lamp.png");
 }

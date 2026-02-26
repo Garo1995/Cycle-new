@@ -173,6 +173,35 @@ let systemSwiper = new Swiper(".level-system-slider", {
 
 
 
+document.addEventListener("DOMContentLoaded", function () {
+    const scrollContainer = document.querySelector('.caught-cycle-scr');
+    const circle = document.querySelector('.caught-circle-pic img');
+    const boxes = document.querySelectorAll('.caught-cycle-box');
+
+    let stepWidth = boxes[0].offsetWidth;
+
+    scrollContainer.addEventListener('scroll', function () {
+        let scrollLeft = scrollContainer.scrollLeft;
+
+        // определяем индекс текущего блока
+        let index = Math.round(scrollLeft / stepWidth);
+
+        // считаем поворот
+        let rotation = index * 25;
+
+        circle.style.transform = `rotate(${rotation}deg)`;
+    });
+
+    // если экран ресайзится
+    window.addEventListener('resize', () => {
+        stepWidth = boxes[0].offsetWidth;
+    });
+});
+
+
+
+
+
 $('.open-reviews').on('click', function () {
     $('.reviews-btn').addClass('reviews-btn-active')
     $('.reviews-fon').addClass('reviews-active')
